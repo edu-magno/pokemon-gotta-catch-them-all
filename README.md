@@ -1,16 +1,10 @@
 # pokemon_gotta_catch_them_all
 
-A new Flutter project.
+## HOW TO USE
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Clone this project in your machine
+- Run the command: `flutter pub get`
+- Open your emulator or connect a physical device
+- Run the command: `flutter run` and select the device. If you in vscode you can run pressing  `F5`
+- Enjoy :)
