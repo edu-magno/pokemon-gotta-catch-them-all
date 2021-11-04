@@ -10,7 +10,6 @@
 ///
 ///
 import 'package:flutter/widgets.dart';
-import 'package:pokemon_gotta_catch_them_all/app/features/shared/utils/pokemon_types.dart';
 
 class PokemonIcons {
   PokemonIcons._();

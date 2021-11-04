@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../shared/widgets/horizontal_space_8.dart';
+import 'package:pokemon_gotta_catch_them_all/app/shared/widgets/horizontal_space_8.dart';
 
 class StatWidget extends StatelessWidget {
   final IconData icon;

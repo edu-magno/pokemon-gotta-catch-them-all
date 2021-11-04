@@ -1,6 +1,7 @@
+import 'package:pokemon_gotta_catch_them_all/app/shared/utils/common_state/common_state.dart';
+
 import '../models/pokemon.dart';
 import '../repositories/pokemon_repository.dart';
-import '../../shared/utils/common_state/common_state.dart';
 import 'package:state_notifier/state_notifier.dart';
 
 typedef PokemonState = CommonState<String, Pokemon>;

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:pokemon_gotta_catch_them_all/app/features/home/widgets/stat_widget.dart';
-import 'package:pokemon_gotta_catch_them_all/app/features/shared/theme/colors.dart';
-import 'package:pokemon_gotta_catch_them_all/app/features/shared/utils/pokemon_icons.dart';
-import 'package:pokemon_gotta_catch_them_all/app/features/shared/widgets/horizontal_space_8.dart';
+
+import 'package:pokemon_gotta_catch_them_all/app/shared/theme/colors.dart';
+import 'package:pokemon_gotta_catch_them_all/app/shared/utils/pokemon_icons.dart';
+import 'package:pokemon_gotta_catch_them_all/app/shared/widgets/horizontal_space_8.dart';
 
 class PokemonStatsComponent extends StatelessWidget {
   final String health;

@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:pokemon_gotta_catch_them_all/app/shared/utils/common_state/common_state.dart';
 import '../models/city.dart';
 import '../repositories/city_repository.dart';
-import '../../shared/utils/common_state/common_state.dart';
 
 typedef CityState = CommonState<String, City>;
 

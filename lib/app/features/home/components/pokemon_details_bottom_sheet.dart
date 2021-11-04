@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../shared/widgets/fail_state_widget.dart';
-import '../../shared/widgets/loading_state_widget.dart';
-import '../../shared/widgets/vertical_space_16.dart';
+import 'package:pokemon_gotta_catch_them_all/app/shared/theme/colors.dart';
+import 'package:pokemon_gotta_catch_them_all/app/shared/utils/pokemon_types.dart';
+import 'package:pokemon_gotta_catch_them_all/app/shared/widgets/fail_state_widget.dart';
+import 'package:pokemon_gotta_catch_them_all/app/shared/widgets/horizontal_space_8.dart';
+import 'package:pokemon_gotta_catch_them_all/app/shared/widgets/loading_state_widget.dart';
+import 'package:pokemon_gotta_catch_them_all/app/shared/widgets/vertical_space_16.dart';
+import 'package:pokemon_gotta_catch_them_all/app/shared/widgets/vertical_space_8.dart';
+
 import 'pokemon_stats_component.dart';
 import '../providers/home_providers.dart';
 import '../widgets/bottom_sheet_push_widget.dart';
 import '../widgets/pokemon_image_widget.dart';
-import '../../shared/theme/colors.dart';
-import '../../shared/utils/pokemon_types.dart';
-import '../../shared/widgets/horizontal_space_8.dart';
-import '../../shared/widgets/vertical_space_8.dart';
+
 
 class PokemonDetailsBottomSheet extends StatefulWidget {
   final String url;
