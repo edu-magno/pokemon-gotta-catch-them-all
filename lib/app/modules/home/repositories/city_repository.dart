@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import 'package:pokemon_gotta_catch_them_all/app/features/home/models/city.dart';
-import 'package:pokemon_gotta_catch_them_all/app/features/home/models/simplified_pokemon.dart';
+import 'package:pokemon_gotta_catch_them_all/app/modules/home/models/city.dart';
+import 'package:pokemon_gotta_catch_them_all/app/modules/home/models/simplified_pokemon.dart';
 import '../models/simplified_city.dart';
 import '../models/success_cities_response.dart';
 
@@ -64,11 +64,9 @@ class CityRepository {
           )
           .toList();
 
-     final pokemons = pokemonsLists.expand((element) => element).toList();
+      final pokemons = pokemonsLists.expand((element) => element).toList();
 
-      return Right(
-        City(name: result.data['name'], pokemons: pokemons)
-      );
+      return Right(City(name: result.data['name'], pokemons: pokemons));
     } catch (err) {
       return const Left('Ocorreu um erro');
     }

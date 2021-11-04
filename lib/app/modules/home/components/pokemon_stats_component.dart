@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokemon_gotta_catch_them_all/app/features/home/widgets/stat_widget.dart';
+import 'package:pokemon_gotta_catch_them_all/app/modules/home/widgets/stat_widget.dart';
 
 import 'package:pokemon_gotta_catch_them_all/app/shared/theme/colors.dart';
 import 'package:pokemon_gotta_catch_them_all/app/shared/utils/pokemon_icons.dart';

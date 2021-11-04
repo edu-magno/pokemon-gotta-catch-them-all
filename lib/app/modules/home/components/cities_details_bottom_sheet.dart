@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:pokemon_gotta_catch_them_all/app/features/home/providers/home_providers.dart';
-import 'package:pokemon_gotta_catch_them_all/app/features/home/widgets/bottom_sheet_push_widget.dart';
+import 'package:pokemon_gotta_catch_them_all/app/modules/home/providers/home_providers.dart';
+import 'package:pokemon_gotta_catch_them_all/app/modules/home/widgets/bottom_sheet_push_widget.dart';
 import 'package:pokemon_gotta_catch_them_all/app/shared/widgets/fail_state_widget.dart';
 import 'package:pokemon_gotta_catch_them_all/app/shared/widgets/loading_state_widget.dart';
 import 'package:pokemon_gotta_catch_them_all/app/shared/widgets/vertical_space_16.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokemon_gotta_catch_them_all/app/features/home/components/pokemon_details_bottom_sheet.dart';
+import 'package:pokemon_gotta_catch_them_all/app/modules/home/components/pokemon_details_bottom_sheet.dart';
 import 'package:pokemon_gotta_catch_them_all/app/shared/theme/colors.dart';
 
 class PokemonCardWidget extends StatelessWidget {
@@ -36,7 +36,9 @@ class PokemonCardWidget extends StatelessWidget {
         trailing: InkWell(
           onTap: () => showModalBottomSheet(
               context: context,
-              builder: (context) => PokemonDetailsBottomSheet(url: url,),
+              builder: (context) => PokemonDetailsBottomSheet(
+                    url: url,
+                  ),
               isScrollControlled: true),
           child: const Icon(
             Icons.chevron_right_rounded,

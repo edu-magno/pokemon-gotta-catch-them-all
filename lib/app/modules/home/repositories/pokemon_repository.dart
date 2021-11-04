@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import 'package:pokemon_gotta_catch_them_all/app/features/home/models/pokemon.dart';
-import 'package:pokemon_gotta_catch_them_all/app/features/home/models/simplified_pokemon.dart';
+import 'package:pokemon_gotta_catch_them_all/app/modules/home/models/pokemon.dart';
+import 'package:pokemon_gotta_catch_them_all/app/modules/home/models/simplified_pokemon.dart';
 import '../models/success_pokemons_response.dart';
 
 class PokemonRepository {
